@@ -5,7 +5,7 @@ University of Utah
 
 David Venegas
 
-## Lab 1: General-purpose I/Os (GPIO)
+## Lab 1: [General-purpose I/Os (GPIO)](6780_lab1_GPIO)
 These exercises explore two basic operations of the GPIO: Blinking LEDs, and reading the state of a
 pushbutton.
 
