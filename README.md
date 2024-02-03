@@ -1,5 +1,6 @@
 # ECE 6780 Embedded System Design - Labs
 University of Utah
+
 David Venegas
 
 ## Lab 1: General-purpose I/Os (GPIO)
