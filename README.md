@@ -1,3 +1,5 @@
+![Main](/assets/images/embedded.jpg")
+
 # ECE 6780 Embedded System Design - Labs
 University of Utah
 
