@@ -25,3 +25,9 @@ of the delay:
 
 - [Input and reading a button main.c](<6780_lab1_GPIO/Main files/Main Button/main.c>)
 
+## Lab 2: [Interrupts](6780_lab2_Interrupts)
+This lab introduces the concept of interrupt-driven programming and guides through the configuration of interrupt-oriented peripherals; the exercises herein provide a foundation for utilizing interrupts in an embedded application. They introduce the practice of enabling, configuring parameters and writing handler routines to service peripheral interrupt requests.
+
+### 2.6.3 Setting up Interrupt Handler and 2.6.5 and Interrupt Nesting
+Although in some cases it may be infeasible, normally you want to keep interrupt handlers as short as possible to avoid starving parts of your program. This exercise demonstrates how a long running interrupt impacts the main application loop.
+
