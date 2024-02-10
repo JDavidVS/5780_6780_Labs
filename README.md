@@ -5,7 +5,7 @@ University of Utah
 
 David Venegas
 
-## Lab 1: [General-purpose I/Os (GPIO)](6780_lab1_GPIO)
+# Lab 1: [General-purpose I/Os (GPIO)](6780_lab1_GPIO)
 These exercises explore two basic operations of the GPIO: Blinking LEDs, and reading the state of a
 pushbutton.
 
@@ -25,7 +25,7 @@ of the delay:
 
 - [Input and reading a button main.c](<6780_lab1_GPIO/Main files/Main Button/main.c>)
 
-## Lab 2: [Interrupts](6780_lab2_Interrupts)
+# Lab 2: [Interrupts](6780_lab2_Interrupts)
 This lab introduces the concept of interrupt-driven programming and guides through the configuration of interrupt-oriented peripherals; the exercises herein provide a foundation for utilizing interrupts in an embedded application. They introduce the practice of enabling, configuring parameters and writing handler routines to service peripheral interrupt requests.
 
 ### 2.6.3 Setting up Interrupt Handler and 2.6.5 and Interrupt Nesting
