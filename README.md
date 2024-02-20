@@ -84,18 +84,18 @@ Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. T
 **$D_{14}$** - Red LED
 
 
-![lab32](6780_lab3_Timers/Sources/CCRx/1percent.png)
+![lab33](6780_lab3_Timers/Sources/CCRx/1percent.png)
 
-**From the oscilloscope/logic analyzer: For CCRx at 20% of ARR f = 800Hz or T = 1.25ms**
+**From the oscilloscope/logic analyzer: For CCRx at 1% of ARR f = 800Hz or T = 1.25ms**
 
 **$D_{15}$** - Blue LED
 
 **$D_{14}$** - Red LED
 
 
-![lab32](6780_lab3_Timers/Sources/CCRx/20percent.png)
+![lab34](6780_lab3_Timers/Sources/CCRx/125.png)
 
-**From the oscilloscope/logic analyzer: For CCRx at 20% of ARR f = 800Hz or T = 1.25ms**
+**From the oscilloscope/logic analyzer: For CCRx at 100% of ARR f = 800Hz or T = 1.25ms**
 
 **$D_{15}$** - Blue LED
 
