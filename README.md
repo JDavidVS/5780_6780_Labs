@@ -53,13 +53,13 @@ Although in some cases it may be infeasible, normally you want to keep interrupt
 This lab explores when deciding on a timer to use for an application, it is helpful to understand their capabilities and limits to determine their suitability for the task. It also explores PWM and GPIO Alternate Functions.
 
 ### 3.1 Using Timer Interrupts.
-Set up a timer such that the update event(UEV) triggers an interrupt at 4 Hz. Timer peripherals allow for greater flexibility in choosing an interrupt period over manually counting in the SysTick handler.
+Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. Timer peripherals allow for greater flexibility in choosing an interrupt period over manually counting in the SysTick handler.
 
 - [main.c](<6780_lab3_Timers/Sources/First Experiment for 4Hz/main.c>)
 
 - [stm32f0xx_it.c](<6780_lab3_Timers/Sources/First Experiment for 4Hz/stm32f0xx_it.c>)
 
-  ![lab31](6780_lab3_Timers/Sources/First Experiment for 4Hz/scope_0.png)
+![lab31](6780_lab3_Timers/Sources/First Experiment for 4Hz/scope_0.png)
 
 **From the oscilloscope/logic analyzer: f = 4Hz or T = 250ms**
 
