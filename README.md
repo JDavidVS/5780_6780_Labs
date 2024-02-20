@@ -52,14 +52,14 @@ Although in some cases it may be infeasible, normally you want to keep interrupt
 # Lab 3: [Timers](6780_lab3_Timers)
 This lab explores when deciding on a timer to use for an application, it is helpful to understand their capabilities and limits to determine their suitability for the task. It also explores PWM and GPIO Alternate Functions.
 
-### 3.1 Using Timer Interrupts.
+### 3.1 Using Timer Interrupts
 Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. Timer peripherals allow for greater flexibility in choosing an interrupt period over manually counting in the SysTick handler.
 
-- [main.c](<6780_lab3_Timers/Sources/First Experiment for 4Hz/main.c>)
+- [main.c](<6780_lab3_Timers/Sources/First_Experiment/main.c>)
 
-- [stm32f0xx_it.c](<6780_lab3_Timers/Sources/First Experiment for 4Hz/stm32f0xx_it.c>)
+- [stm32f0xx_it.c](<6780_lab3_Timers/Sources/First_Experiment/stm32f0xx_it.c>)
 
-![lab31](6780_lab3_Timers/Sources/First Experiment for 4Hz/scope_0.png)
+![lab31](6780_lab3_Timers/Sources/First_Experiment/scope_0.png)
 
 **From the oscilloscope/logic analyzer: f = 4Hz or T = 250ms**
 
@@ -67,6 +67,39 @@ Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. T
 
 **$D_{14}$** - Orange LED
 
+
+### 3.2 Configuring Timer Channels to PWM Mode, 3.3 Configuring Pin Alternate Functions, and 3.4 Measuring PWM Output
+Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. Timer peripherals allow for greater flexibility in choosing an interrupt period over manually counting in the SysTick handler.
+
+- [main.c](<6780_lab3_Timers/Sources/CCRx/main.c>)
+
+- [stm32f0xx_it.c](<6780_lab3_Timers/Sources/CCRx/stm32f0xx_it.c>)
+
+![lab32](6780_lab3_Timers/Sources/CCRx/20percent.png)
+
+**From the oscilloscope/logic analyzer: For CCRx at 20% of ARR f = 800Hz or T = 1.25ms**
+
+**$D_{15}$** - Blue LED
+
+**$D_{14}$** - Red LED
+
+
+![lab32](6780_lab3_Timers/Sources/CCRx/1percent.png)
+
+**From the oscilloscope/logic analyzer: For CCRx at 20% of ARR f = 800Hz or T = 1.25ms**
+
+**$D_{15}$** - Blue LED
+
+**$D_{14}$** - Red LED
+
+
+![lab32](6780_lab3_Timers/Sources/CCRx/20percent.png)
+
+**From the oscilloscope/logic analyzer: For CCRx at 20% of ARR f = 800Hz or T = 1.25ms**
+
+**$D_{15}$** - Blue LED
+
+**$D_{14}$** - Red LED
 
 
 
