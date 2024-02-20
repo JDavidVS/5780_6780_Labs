@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+"6780_lab3_timers\startup_stm32f072xb.o"
+"6780_lab3_timers\main.o"
+"6780_lab3_timers\stm32f0xx_it.o"
+"6780_lab3_timers\stm32f0xx_hal_msp.o"
+"6780_lab3_timers\stm32f0xx_hal_tim.o"
+"6780_lab3_timers\stm32f0xx_hal_tim_ex.o"
+"6780_lab3_timers\stm32f0xx_hal_rcc.o"
+"6780_lab3_timers\stm32f0xx_hal_rcc_ex.o"
+"6780_lab3_timers\stm32f0xx_hal.o"
+"6780_lab3_timers\stm32f0xx_hal_i2c.o"
+"6780_lab3_timers\stm32f0xx_hal_i2c_ex.o"
+"6780_lab3_timers\stm32f0xx_hal_gpio.o"
+"6780_lab3_timers\stm32f0xx_hal_dma.o"
+"6780_lab3_timers\stm32f0xx_hal_cortex.o"
+"6780_lab3_timers\stm32f0xx_hal_pwr.o"
+"6780_lab3_timers\stm32f0xx_hal_pwr_ex.o"
+"6780_lab3_timers\stm32f0xx_hal_flash.o"
+"6780_lab3_timers\stm32f0xx_hal_flash_ex.o"
+"6780_lab3_timers\stm32f0xx_hal_exti.o"
+"6780_lab3_timers\system_stm32f0xx.o"
+--strict --scatter "6780_lab3_Timers\6780_lab3_Timers.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "6780_lab3_Timers.map" -o 6780_lab3_Timers\6780_lab3_Timers.axf
