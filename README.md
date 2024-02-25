@@ -132,6 +132,7 @@ Your command parser must now accept two character commands.
 
 – ‘2’ toggles the LED
 
+
 2. Print a command prompt such as “CMD?” when waiting for user input.
 
 3. Entering an unknown character prints an error message and restarts back to the beginning.
