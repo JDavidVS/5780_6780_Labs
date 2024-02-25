@@ -102,4 +102,43 @@ Set up a timer such that the update event (UEV) triggers an interrupt at 4 Hz. T
 **$D_{14}$** - Red LED  -----> Dimmer light
 
 
+# Lab 4: [Universal Asynchronous Receiver/Transmitter (UART)](6780_lab4_UART)
+This lab introduces the fundamentals of data transfer through digital communication interfaces. These
+interfaces exist because information is only useful when it is understandable; we must, therefore, have
+defined ways (standards) of transmitting and interpreting it.
+
+### 4.9.2 Blocking Transmission
+This exercise transmits single characters to the serial terminal on the PC. The character transmission
+will be handled in the main loop of the application using a blocking method.
+
+- [Blocking Transmission main.c](<6780_lab4_UART/Sources/Blocking Transmission/main.c>)
+
+### 4.9.4 Blocking Reception
+The goal is to develop an application that toggles the correct LED whenever the character matching the first letter of the color is pressed. For example, typing an ‘r’ into the terminal would toggle the red LED.
+
+- [Blocking Reception main.c](<6780_lab4_UART/Sources/Blocking Reception/main.c>)
+
+### 4.9.5 Interrupt-Based Reception
+In this final exercise you will use an interrupt to save the received data when it arrives. Additionally you will expand your simple command parser with more complex behavior:
+Your command parser must now accept two character commands.
+
+• The first character is a letter matching the one of the LED colors.
+
+• The second character is a number between 0 and 2.
+– ‘0’ turns off the LED
+– ‘1’ turns on the LED
+– ‘2’ toggles the LED
+
+2. Print a command prompt such as “CMD?” when waiting for user input.
+
+3. Entering an unknown character prints an error message and restarts back to the beginning.
+
+4. On a successful command, print a message about which command was recognized.
+
+- [Interrupt-Based Reception main.c](<6780_lab4_UART/Sources/Interrupt-Based Reception/main.c>)
+
+
+
+
+
 
