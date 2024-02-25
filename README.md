@@ -125,8 +125,11 @@ Your command parser must now accept two character commands.
 • The first character is a letter matching the one of the LED colors.
 
 • The second character is a number between 0 and 2.
+
 – ‘0’ turns off the LED
+
 – ‘1’ turns on the LED
+
 – ‘2’ toggles the LED
 
 2. Print a command prompt such as “CMD?” when waiting for user input.
