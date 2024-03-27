@@ -33,7 +33,7 @@ int main(void)
 	// Initialize the LED pins to output
 	// RCC to enable the GPIOC, DAC peripheral clock
 	RCC->AHBENR |= RCC_AHBENR_GPIOAEN;
-	RCC->APB2ENR |= RCC_APB1ENR_DACEN;
+	RCC->APB1ENR |= RCC_APB1ENR_DACEN;
 
 	
 	// Select a GPIO pin to use as the DAC output
@@ -42,7 +42,9 @@ int main(void)
 	GPIOA->MODER |= (1 << 9);
 	
 	// Set the used DAC channel to software trigger mode
-	DAC1->SWTRIGR |= (1 << 0);
+	DAC1->CR |= (1 << 3);
+	DAC1->CR |= (1 << 4);
+	DAC1->CR |= (1 << 5);
 	
 	// Enable the used DAC channel
 	DAC1->CR |= (1 << 0);
