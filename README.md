@@ -168,7 +168,7 @@ The goal of this exercise is to generate an analog waveform that can be viewed u
 -[DAC main.c](<6780_lab6_Analog/Sources/DAC/main.c>)
 
 
-![lab62](6780_lab6_Analog/Sources/DAC/DAC_sine.png)
+![lab62](6780_lab6_Analog/Sources/DAC/DAC.png)
 
 
 
