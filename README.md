@@ -141,6 +141,21 @@ Your command parser must now accept two character commands.
 
 - [Interrupt-Based Reception main.c](<6780_lab4_UART/Sources/Interrupt-Based Reception/main.c>)
 
+# Lab 5: [The Inter-integrated Circuit Interface (I2C)](6780_lab5_I2C)
+I2C (Inter-Integrated Circuit), is a synchronous serial communications bus developed by Philips Semiconductor in 1982. It generally connects lower-speed devices such as sensors to a microprocessor. I2C’s design enables many devices to share a single data connection, and it includes addressing so that each device may enable individually without the need for external enable signals. While multiple speed standards exist for the I2C interface, the most common of these are the original 100 kHz and the 400 kHz fast-mode.
+
+### 5.3 Initializing the I2C Peripheral
+In this lab we will be using only the basic operation of the I2C peripheral. Because of this, most
+of the control bits can be left in their default state.
+
+- [Interrupt-Based Reception main.c](<6780_lab5_I2C/Sources/Setup I2C/main.c>)
+
+### 5.7 Using the I3G4250D to Implement a Rotation Indicator
+Now that you have completed basic reading and writing to the sensor, it is time to enable and use the data it produces. Since this lab is teaching basic I2C and not how to control the I3G4250D gyro effectively, you aren’t required to fully initialize the device to use the FIFO buffer and other features. In this section you will be repeatedly reading the sensor’s data registers within the main while loop of your program. Because the sensor only produces data at a defined rate (95 Hz default) you will want to introduce some delay between reads.
+
+- [Interrupt-Based Reception main.c](<6780_lab5_I2C/Core/Src/main.c>)
+
+
 
 
 
