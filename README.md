@@ -148,12 +148,12 @@ I2C (Inter-Integrated Circuit), is a synchronous serial communications bus devel
 In this lab we will be using only the basic operation of the I2C peripheral. Because of this, most
 of the control bits can be left in their default state.
 
-- [Checking transmission main.c](<6780_lab5_I2C/Sources/Setup I2C/main.c>)
+- [Checking transmission main.c](<6780_lab5_I2C/Sources/whoiam/main.c>)
 
 ### 5.7 Using the I3G4250D to Implement a Rotation Indicator
 Now that you have completed basic reading and writing to the sensor, it is time to enable and use the data it produces. Since this lab is teaching basic I2C and not how to control the I3G4250D gyro effectively, you aren’t required to fully initialize the device to use the FIFO buffer and other features. In this section you will be repeatedly reading the sensor’s data registers within the main while loop of your program. Because the sensor only produces data at a defined rate (95 Hz default) you will want to introduce some delay between reads.
 
-- [Gyroscope main.c](<6780_lab5_I2C/Core/Src/main.c>)
+- [Gyroscope main.c](<6780_lab5_I2C/Sources/Gyro/main.c>)
 
 # Lab 6: [Analog Signals and the ADC/DAC](6780_lab6_Analog)
 
@@ -166,6 +166,11 @@ The goal of this exercise is to use the ADC to measure the position of a potenti
 The goal of this exercise is to generate an analog waveform that can be viewed using either an oscilloscope or the analog input of a Saleae logic analyzer. The DAC peripheral will be fed values from one of the lab wave-tables given in the lab.
 
 -[DAC main.c](<6780_lab6_Analog/Sources/DAC/main.c>)
+
+
+![lab62](6780_lab6_Analog/Sources/DAC/DAC_sine.png)
+
+
 
 
 
