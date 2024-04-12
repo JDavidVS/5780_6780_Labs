@@ -175,7 +175,7 @@ The purpose of a control system is to direct the behavior of other devices to pr
 
 -[PID main.c](<6780_lab7_PID/Core/Src/main.c>)
 
--[PID motor.c](<6780_lab7_PID/Core/Inc/motor.c>)
+-[PID motor.c](<6780_lab7_PID/Sources/motor.c>)
 
 -[PID main.h](<6780_lab7_PID/Core/Inc/motor.h>)
 
