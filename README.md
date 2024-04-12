@@ -173,6 +173,14 @@ The goal of this exercise is to generate an analog waveform that can be viewed u
 # Lab 7: [PID DC Motor Controller](6780_lab7_PID)
 The purpose of a control system is to direct the behavior of other devices to produce an output state that matches a requested condition. Control systems vary widely in their design and are used in many different applications, such as thermastats for household heating and cruise-control for vehicles. Control systems can be either open-loop or closed-loop in design. Open-loop systems apply a process or algorithm to directly generate their output state from their inputs; they have no method of measuring the actual effect of their actions. Closed-loop control systems use their own output as a secondary input, and calculate a course of action depending on the error between the desired and current state. This process is called feedback.
 
+-[PID main.c](<6780_lab7_PID/Core/Src/main.c>)
+
+-[PID motor.c](<6780_lab7_PID/Core/Inc/motor.c>)
+
+-[PID main.h](<6780_lab7_PID/Core/Inc/motor.h>)
+
+-[PID ELF/AXF](<6780_lab7_PID/MDK-ARM/6780_lab7_PID/6780_lab7_PID.axf>)
+
 ### 7.15 Tuning the Controller
 Using what you know about the different parameters from the control system modeling lab
 adjust and view the system response using STMStudio:
