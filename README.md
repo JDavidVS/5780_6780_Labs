@@ -170,6 +170,57 @@ The goal of this exercise is to generate an analog waveform that can be viewed u
 
 ![lab62](6780_lab6_Analog/Sources/DAC/DAC.png)
 
+# Lab 7: [PID DC Motor Controller](6780_lab7_PID)
+The purpose of a control system is to direct the behavior of other devices to produce an output state that matches a requested condition. Control systems vary widely in their design and are used in many different applications, such as thermastats for household heating and cruise-control for vehicles. Control systems can be either open-loop or closed-loop in design. Open-loop systems apply a process or algorithm to directly generate their output state from their inputs; they have no method of measuring the actual effect of their actions. Closed-loop control systems use their own output as a secondary input, and calculate a course of action depending on the error between the desired and current state. This process is called feedback.
+
+### 7.15 Tuning the Controller
+Using what you know about the different parameters from the control system modeling lab
+adjust and view the system response using STMStudio:
+
+## Scaling Factors for Proportional and Integral
+![kikp](6780_lab7_PID/Sources/img/settings.png)
+
+## Speed change from 0 to 80 RPM
+
+**- Before:**
+![0to80_1](6780_lab7_PID/Sources/img/0to80_1.png)
+
+**- After:**
+![0to80_2](6780_lab7_PID/Sources/img/0to80_2.png)
+
+## Speed change from 80 to 50 RPM
+
+**- Before:**
+![80to50_1](6780_lab7_PID/Sources/img/80to50_1.png)
+
+**- After:**
+![80to50_2](6780_lab7_PID/Sources/img/80to50_2.png)
+
+## Speed change from 50 to 80 RPM
+
+**- Before:**
+![50to80_1](6780_lab7_PID/Sources/img/50to80_1.png)
+
+**- After:**
+![50to80_2](6780_lab7_PID/Sources/img/50to80_2.png)
+
+## Speed change from 80 to 0 RPM
+
+**- Before:**
+![80to0_1](6780_lab7_PID/Sources/img/80to0_1.png)
+
+**- After:**
+![80to0_2](6780_lab7_PID/Sources/img/80to0_2.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
